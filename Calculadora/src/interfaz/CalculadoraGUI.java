@@ -49,6 +49,7 @@ public class CalculadoraGUI extends JFrame {
 		pnlCentro.add(lblResultado);
 		txtResultado = new JTextField();
 		txtResultado.setEnabled(false);
+		pnlCentro.add(txtResultado);
 		
 		JPanel pnlSur = new JPanel();
 		pnlPrincipal.add(pnlSur,BorderLayout.SOUTH);
